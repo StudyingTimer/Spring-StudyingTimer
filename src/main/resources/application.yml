@@ -1,0 +1,16 @@
+spring:
+  h2:
+    console:
+      enabled: true
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        use_sql_comments: true
+
+oauth:
+  bsm:
+    client:
+      id: 5f034939
+      secret: 7b4d49448c8b888082c040d6b39c2c74
